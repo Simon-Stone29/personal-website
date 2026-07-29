@@ -20,7 +20,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center">
           {/* Logo/Name */}
           <Link href="/" className="text-xl font-semibold tracking-tight hover:text-gray-600 transition-colors">
-            Your Name
+            Simon Stone
           </Link>
 
           {/* Desktop Navigation */}

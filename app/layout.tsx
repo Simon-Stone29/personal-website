@@ -3,7 +3,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Your Name | Portfolio",
+  title: "Simon Stone | Portfolio",
   description: "Developer portfolio showcasing projects and creative work",
 };
 
