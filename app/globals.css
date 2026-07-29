@@ -9,7 +9,16 @@
 }
 
 body {
-  @apply bg-black text-white font-sans;
+  @apply bg-white text-gray-900 font-sans;
+}
+
+/* Glassmorphism utilities */
+.glass {
+  @apply bg-white/60 backdrop-blur-xl border border-gray-200;
+}
+
+.glass-dark {
+  @apply bg-gray-900/60 backdrop-blur-xl border border-gray-800;
 }
 
 html {
