@@ -5,11 +5,11 @@ export default function Resume() {
   return (
     <div className="min-h-screen px-6 py-20">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">Resume</h1>
+        <h1 className="text-4xl font-bold mb-8 text-white">Resume</h1>
 
         {/* Experience Section */}
         <section className="mb-16">
-          <h2 className="text-2xl font-semibold mb-6">Experience</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-white">Experience</h2>
           <div className="space-y-0">
             <ExperienceCard
               logo="/experience/company1.jpg"
@@ -42,7 +42,7 @@ export default function Resume() {
 
         {/* Skills Section */}
         <section>
-          <h2 className="text-2xl font-semibold mb-6">Skills</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-white">Skills</h2>
           <div className="flex flex-wrap gap-3">
             <SkillPill skillName="TypeScript" />
             <SkillPill skillName="JavaScript" />
