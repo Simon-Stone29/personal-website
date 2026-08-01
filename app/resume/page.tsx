@@ -12,36 +12,67 @@ export default function Resume() {
           <h2 className="text-2xl font-semibold mb-6 text-white">Experience</h2>
           <div className="space-y-0">
             <ExperienceCard
-              logo="/experience/company1.jpg"
-              company="Company Name"
-              role="Software Engineer"
-              duration="Jan 2024 - Present"
+              logo="/icons/regeneron_pharmaceuticals_logo.jpg"
+              company="Regeneron Pharmaceuticals"
+              role="IOPS CMC Regulatory Sciences - Intern"
+              duration="May 2026 - Present"
               points={[
-                "Built and maintained scalable web applications using React and Next.js",
-                "Collaborated with cross-functional teams to deliver high-quality features",
-                "Improved application performance and user experience"
+                "Selected for the highly competitive Regeneron internship program, with an acceptance rate of approximately 2%",
+                "Developed an SQL database & a full stack web application for efficiently tracking errors in regulatory submissions",
+                "Interacted and presented to stakeholders, users, and business leaders to gather requirements and incorporate feedback into the tool",
+                "Explored new departments and functions of Regeneron to more holistically understand the process of bringing medicines to patients"
               ]}
-              rounded="top"
-              skills={['React', 'Next.js', 'TypeScript', 'Tailwind CSS']}
+              rounded="all"
+              skills={['Flask', 'Python', 'SQL Server Management Studio', 'HTML5', 'JavaScript', 'CSS', 'Microsoft Suite', 'Power Point', 'Claude Code']}
             />
+
             <ExperienceCard
-              logo="/experience/company2.jpg"
-              company="Previous Company"
-              role="Junior Developer"
-              duration="Jun 2023 - Dec 2023"
+              logo="/icons/regeneron_pharmaceuticals_logo.jpg"
+              company="Regeneron Pharmaceuticals"
+              role="IOPS IT Applications - Intern"
+              duration="May 2025 - Aug 2025"
               points={[
-                "Developed responsive user interfaces using modern web technologies",
-                "Participated in code reviews and team meetings",
-                "Learned best practices for software development"
+                "Developed a full stack web application as a proof of concept for budget management, utilizing Java Spring Boot, HTML, JavaScript, and PostgreSQL",
+                "Collaborated with a team of interns to create an Electric Vehicle charger availability app, seeking to improve charger utilization, reduce employee wait times, and support policy compliance",
+                "Applied Agile Scrum methodology as a Developer and gained experience with Sprints, Reviews and Retrospectives, and the roles of the Product Owner and Scrum Master",
+                "Engaged with business stakeholders to gather requirements and regularly presented project progress and deliverables to leadership"
               ]}
-              rounded="bottom"
-              skills={['HTML', 'CSS', 'JavaScript']}
+              rounded="all"
+              skills={['Java', 'JavaScript', 'HTML5', 'CSS', 'Spring Boot', 'PostgreSQL', 'Requirements Gathering', 'Microsoft PowerPoint', 'Public Speaking']}
+            />
+
+            <ExperienceCard
+              logo="/icons/siena_college_logo.jpg"
+              company="Siena University"
+              role="Writing Center Tutor"
+              duration="Sep 2025 - Present"
+              points={[
+                "Worked with members of the Siena community to provide writing strategies",
+                "Learned and utilized tutoring practices to positively impact student work",
+                "Consistently demonstrated timeliness in submitting appointment reflections & timecards"
+              ]}
+              rounded="all"
+              skills={['Communication', 'Teaching']}
+            />
+
+            <ExperienceCard
+              logo="/icons/target_logo.jpg"
+              company="Target"
+              role="Guest Advocate"
+              duration="May 2024 - Jan 2025"
+              points={[
+                "Delivered exceptional customer service and facilitated returns, exchanges, and checkout",
+                "Worked daily with Point of Sale (POS) systems to accurately process transactions",
+                "Adapted to various roles and responsibilities, contributing to a positive working environment"
+              ]}
+              rounded="all"
+              skills={['Customer Service', 'Point of Sale (POS) Systems', 'Retail']}
             />
           </div>
         </section>
 
         {/* Skills Section */}
-        <section>
+<section>
           <h2 className="text-2xl font-semibold mb-6 text-white">Skills</h2>
           <div className="flex flex-wrap gap-3">
             <SkillPill skillName="TypeScript" />
@@ -54,6 +85,8 @@ export default function Resume() {
             <SkillPill skillName="Git" />
             <SkillPill skillName="Node.js" />
             <SkillPill skillName="Python" />
+            <SkillPill skillName="Power Point" />
+            <SkillPill skillName="Microsoft Suite" />
           </div>
         </section>
       </div>
