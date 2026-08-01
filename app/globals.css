@@ -20,3 +20,17 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Bottom blur fade effect */
+.bottom-blur {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8rem;
+  pointer-events: none;
+  z-index: 40;
+  background: linear-gradient(to top, #09090B 0%, transparent 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
