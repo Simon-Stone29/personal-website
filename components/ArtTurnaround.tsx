@@ -3,14 +3,14 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const TOTAL_FRAMES = 80;
-const FRAME_FOLDER = "/batman-turnaround-2";
+const FRAME_FOLDER = "/art-turnaround";
 
 function getFrameSrc(frame: number) {
   const padded = String(frame).padStart(4, "0");
   return `${FRAME_FOLDER}/${padded}.png`;
 }
 
-export default function BatmanTurnaround() {
+export default function ArtTurnaround() {
   const [frame, setFrame] = useState(1); // 1-indexed, 1..TOTAL_FRAMES
   const [imagesLoaded, setImagesLoaded] = useState(0);
   const [ready, setReady] = useState(false);
@@ -92,7 +92,7 @@ export default function BatmanTurnaround() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={getFrameSrc(frame)}
-          alt={`Batman turnaround frame ${frame}`}
+          alt={`Art 222turnaround frame ${frame}`}
           className="w-full h-full object-contain pointer-events-none"
           draggable={false}
         />
