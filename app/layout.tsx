@@ -17,7 +17,6 @@ export default function RootLayout({
       <body>
         <Navigation />
         <main className="pt-16">{children}</main>
-        <div className="bottom-blur" />
       </body>
     </html>
   );
