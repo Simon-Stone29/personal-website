@@ -5,6 +5,7 @@ import Script from "next/script";
 import BatmanTurnaround from "@/components/BatmanTurnaround";
 import LegoTurnaround from "@/components/LegoTurnaround";
 import ArtTurnaround from "@/components/ArtTurnaround";
+import LesPaulTurnaround from "@/components/LesPaulTurnaround";
 export default function Playground() {
   return (
     <div className="min-h-screen flex flex-col items-center px-6 py-16 gap-16">
@@ -19,6 +20,10 @@ export default function Playground() {
       <h3>Batman Animated Sculpt</h3>
       <div className="w-full max-w-2xl bg-black rounded-xl p-8">
         <BatmanTurnaround />
+      </div>
+      <h3>Les Paul Guitar Model</h3>
+            <div className="w-full max-w-2xl bg-black rounded-xl p-8">
+        <LesPaulTurnaround/>
       </div>
       <h3>Siena Hall Lego Model</h3>
             <div className="w-full max-w-2xl bg-black rounded-xl p-8">
