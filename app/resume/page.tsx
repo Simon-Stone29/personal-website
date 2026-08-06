@@ -18,9 +18,9 @@ export default function Resume() {
               duration="May 2026 - Present"
               points={[
                 "Selected for the highly competitive Regeneron internship program, with an acceptance rate of approximately 2%",
-                "Developed an SQL database & a full stack web application for efficiently tracking errors in regulatory submissions",
-                "Interacted and presented to stakeholders, users, and business leaders to gather requirements and incorporate feedback into the tool",
-                "Explored new departments and functions of Regeneron to more holistically understand the process of bringing medicines to patients"
+                "Worked in the Planning Systems group to build a web application used for recording and managing errors found in regulatory submissions",
+                "Designed a database using SQL Server Management Studio to store error data & created a Flask application and User Interface using Python, HTML, JavaScript & CSS",
+                "Gathered requirements from end users & presented progress to stakeholders, directors, and executive leadership"
               ]}
               rounded="all"
               skills={['Flask', 'Python', 'SQL Server Management Studio', 'HTML5', 'JavaScript', 'CSS', 'Microsoft Suite', 'Power Point', 'Claude Code']}
