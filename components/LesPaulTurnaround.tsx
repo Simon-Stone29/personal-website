@@ -3,13 +3,12 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const TOTAL_FRAMES = 80;
-const FRAME_FOLDER = "/les-paul-turnaround";
+const FRAME_FOLDER = "/les-paul-turnaround/webp";   // was "/art-turnaround"
 
 function getFrameSrc(frame: number) {
   const padded = String(frame).padStart(4, "0");
-  return `${FRAME_FOLDER}/${padded}.png`;
+  return `${FRAME_FOLDER}/${padded}.webp`;      // was `.png`
 }
-
 export default function LesPaulTurnaround() {
   const [frame, setFrame] = useState(1); // 1-indexed, 1..TOTAL_FRAMES
   const [imagesLoaded, setImagesLoaded] = useState(0);

@@ -3,11 +3,11 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const TOTAL_FRAMES = 80;
-const FRAME_FOLDER = "/batman-turnaround-2";
+const FRAME_FOLDER = "/batman-turnaround-2/webp";   // was "/art-turnaround"
 
 function getFrameSrc(frame: number) {
   const padded = String(frame).padStart(4, "0");
-  return `${FRAME_FOLDER}/${padded}.png`;
+  return `${FRAME_FOLDER}/${padded}.webp`;      // was `.png`
 }
 
 export default function BatmanTurnaround() {
