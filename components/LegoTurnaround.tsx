@@ -3,11 +3,11 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const TOTAL_FRAMES = 80;
-const FRAME_FOLDER = "/siena-lego-turnaround/webp";   // was "/art-turnaround"
+const FRAME_FOLDER = "/lego-turnaround/webp";   // was "/art-turnaround"
 
 function getFrameSrc(frame: number) {
   const padded = String(frame).padStart(4, "0");
-  return `${FRAME_FOLDER}/${padded}.webp`;      // was `.png`
+  return `${'siena-lego-turnaround'}/${padded}.webp`;      // was `.png`
 }
 export default function LegoTurnaround() {
   const [frame, setFrame] = useState(1); // 1-indexed, 1..TOTAL_FRAMES
