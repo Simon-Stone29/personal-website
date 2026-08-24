@@ -7,7 +7,7 @@ const FRAME_FOLDER = "/lego-turnaround/webp";   // was "/art-turnaround"
 
 function getFrameSrc(frame: number) {
   const padded = String(frame).padStart(4, "0");
-  return `${'siena_lego_turnaround'}/${padded}.webp`;      // was `.png`
+    return `${FRAME_FOLDER}/siena_lego_turnaround${padded}.webp`;
 }
 export default function LegoTurnaround() {
   const [frame, setFrame] = useState(1); // 1-indexed, 1..TOTAL_FRAMES
