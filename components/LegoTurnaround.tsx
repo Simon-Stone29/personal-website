@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const TOTAL_FRAMES = 80;
-const FRAME_FOLDER = "/lego-turnaround/webp";   // was "/art-turnaround"
+const FRAME_FOLDER = "/siena-lego-turnaround/webp";   // was "/art-turnaround"
 
 function getFrameSrc(frame: number) {
   const padded = String(frame).padStart(4, "0");
